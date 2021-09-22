@@ -8,3 +8,7 @@ tots= pre+mid+sem+fin
 ave=tots/4
 
 print("The Average is ",ave)
+if ave >= 75:
+	print("You Passed!")
+else:
+	print("You Failed!")
